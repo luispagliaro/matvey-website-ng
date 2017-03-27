@@ -1,0 +1,61 @@
+<section class="news col-xs-12 col-sm-8">
+    <h2>Noticias</h2>
+
+    <hr class="separator">
+
+    <article *ngFor="let new of news" class="media">
+        <h4 class="media-heading">{{new.title}}</h4>
+        <time>{{new.date}}</time>
+        <div class="media-body">
+            <p>{{new.text}}</p>
+        </div>
+        <div class="media-right">
+            <a href="/assets/images/news/{{new.imgName}}" target="_blank">
+                <img class="media-object" width="100" src="/assets/images/news/{{new.imgName}}" alt="{{new.imgAlt}}">
+            </a>
+        </div>
+    </article>
+</section>
+
+<aside class="col-xs-12 col-sm-4">
+    <section class="shows" *ngIf="showShows">
+        <h2>Recitales</h2>
+        <hr class="separator">
+
+        <sebm-google-map [latitude]="-36.876874" [longitude]="-63.437442" [zoom]="3" [usePanning]="true">
+            <sebm-google-map-marker *ngFor="let show of shows" [latitude]="show.lat" [longitude]="show.lng" [title]="show.name" [openInfoWindow]="true">
+                <sebm-google-map-info-window>
+                    <h5 class="list-group-item-heading">{{show.name}}</h5>
+                    <time>{{show.date}} a las {{show.time}} hs</time>
+                    <address>{{show.venue}}, {{show.address}}</address>
+                </sebm-google-map-info-window>
+            </sebm-google-map-marker>
+        </sebm-google-map>
+
+        <ul class="list-group">
+            <li *ngFor="let show of shows" class="list-group-item">
+                <h5 class="list-group-item-heading">{{show.name}}</h5>
+                <time>{{show.date}} a las {{show.time}} hs</time>
+                <address>{{show.venue}}, {{show.address}}</address>
+            </li>
+        </ul>
+    </section>
+
+    <section class="trailer">
+        <h2>Avance 'Reinando Entre Colinas'</h2>
+        <hr class="separator">
+        <iframe src="https://www.youtube.com/embed/5j53EFcpjVA?rel=0&amp;modestbranding=1&amp;showinfo=0&amp;version=4&amp;autohide=1&amp;fs=1&amp;theme=dark"
+            allowfullscreen></iframe>
+    </section>
+
+    <section class="mainReviews">
+        <h2>Reseñas</h2>
+
+        <hr class="separator">
+
+        <article *ngFor="let review of reviews; let i = index;" [class.active]="i === activePreview">
+            <q><b>{{review.preview}}</b></q>
+            <p><small>{{review.publisher}}, {{review.title}}</small></p>
+        </article>
+    </section>
+</aside>

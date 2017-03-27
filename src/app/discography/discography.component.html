@@ -1,0 +1,20 @@
+<section class="discography col-xs-12">
+    <h2>Discografía</h2>
+    <hr class="separator">
+
+    <article *ngFor="let album of discography">
+        <h4>{{album.title}}</h4>
+        <div class="row">
+            <div class="cover col-xs-12 text-center">
+                <img width="250" src="assets/images/{{album.imgName}}" alt="Carátula del disco '{{album.title}}'" height="250">
+                <ng-container *ngIf="album.audio !== ''">
+                    <audio src="assets/audio/{{album.audio}}" controls></audio>
+                </ng-container>
+            </div>
+
+            <div class="recordInfo col-xs-12">
+                <p>{{album.info}}</p>
+            </div>
+        </div>
+    </article>
+</section>

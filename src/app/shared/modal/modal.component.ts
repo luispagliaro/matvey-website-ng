@@ -1,0 +1,33 @@
+import { Component, ViewChild } from '@angular/core';
+
+import { ModalDirective } from 'ng2-bootstrap/modal';
+import { CarouselComponent } from '../carousel/carousel.component';
+
+import { Photos } from '../../photos/photos.model';
+
+@Component({
+    selector: 'app-modal',
+    templateUrl: './modal.component.html',
+    styleUrls: ['./modal.component.css']
+})
+export class ModalComponent {
+    private modalTitle: string;
+    private album: Photos;
+
+    @ViewChild('modal') public modal: ModalDirective;
+    @ViewChild('carousel') public carousel: CarouselComponent;
+
+    constructor() { }
+
+    public showModal(album: Photos): void {
+        this.album = album;
+        this.modalTitle = album.title;
+
+        this.modal.show();
+    }
+
+    public hideModal(): void {
+        this.modal.hide();
+        this.carousel.resetCarousel();
+    }
+}

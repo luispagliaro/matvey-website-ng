@@ -1,0 +1,5 @@
+<carousel *ngIf="album" #carousel>
+    <slide *ngFor="let photo of album.photosNumbers">
+        <img src="assets/images/photos/{{album.id}}/{{photo}}.jpg">
+    </slide>
+</carousel>

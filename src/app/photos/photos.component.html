@@ -1,0 +1,16 @@
+<section class="photos col-xs-12">
+    <h2>Fotos</h2>
+
+    <hr class="separator">
+
+    <div class="row">
+        <article *ngFor="let album of photos" class="col-xs-12 col-sm-4">
+            <h4>{{album.title}}</h4>
+            <a class="thumbnail" id="{{album.id}}" (click)="openGallery(album)">
+                <img src="assets/images/photos/{{album.id}}/1.jpg" title="{{album.title}}" width="284" height="189" alt="Foto de recital en {{album.title}}">
+            </a>
+        </article>
+    </div>
+</section>
+
+<app-modal></app-modal>

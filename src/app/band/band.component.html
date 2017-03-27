@@ -1,0 +1,27 @@
+<section class="history col-xs-12">
+    <h2>Historia</h2>
+
+    <hr class="separator">
+
+    <article>
+        <p>{{band.history}}</p>
+    </article>
+</section>
+
+<section class="members col-xs-12">
+    <h2>Integrantes</h2>
+
+    <hr class="separator">
+
+    <div class="row">
+        <article *ngFor="let member of band.members" class="col-xs-12 col-sm-6">
+            <div class="thumbnail">
+                <h4>{{member.name}} - {{member.role}}</h4>
+                <img width="229" src="assets/images/{{member.imgName}}" alt="Foto de {{member.name}}" height="245">
+                <div class="caption">
+                    <p>{{member.bio}}</p>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>

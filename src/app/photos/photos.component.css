@@ -1,0 +1,10 @@
+.thumbnail {
+    max-width: 284px;
+    margin: 0 auto 20px;
+}
+
+@media (min-width: 768px) {
+    .thumbnail {
+        margin: 0 0 20px;
+    }
+}

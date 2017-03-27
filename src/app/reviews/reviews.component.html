@@ -1,0 +1,34 @@
+<div class="dropdown text-center btn-reviews">
+    <button class="btn btn-default dropdown-toggle" id="reviewsDropdownMenu" data-toggle="dropdown" type="button" aria-expanded="true" aria-haspopup="true">Reseñas<span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li *ngFor="let review of reviews">
+            <a (click)="showReview(review.id)">{{review.title}}</a>
+        </li>
+    </ul>
+</div>
+
+<section *ngIf="selectedReview" class="articles col-xs-12 col-sm-8">
+    <article>
+        <h4>{{selectedReview.title}}</h4>
+
+        <p *ngIf="selectedReview.date"><u>Fecha de publicación: <time>{{selectedReview.date}}</time></u></p>
+
+        <p>{{selectedReview.text}}</p>
+
+        <p>Por {{selectedReview.publisher}}</p>
+
+        <p *ngIf="selectedReview.source"><a [href]="selectedReview.source | safeUrl" target="_blank">Fuente</a></p>
+    </article>
+</section>
+
+<aside class="reviews hidden-xs col-sm-4">
+    <h2>Reseñas</h2>
+
+    <hr class="separator">
+
+    <ul>
+        <li *ngFor="let review of reviews">
+            <a (click)="showReview(review.id)">{{review.title}}</a>
+        </li>
+    </ul>
+</aside>

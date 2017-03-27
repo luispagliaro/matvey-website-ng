@@ -1,0 +1,16 @@
+<section class="videos col-xs-12">
+    <h2>Videos</h2>
+
+    <hr class="separator">
+
+    <section *ngFor="let category of videos" class="row">
+        <h4 class="col-xs-12">{{category.categoryName}}</h4>
+
+        <article *ngFor="let video of category.videos" class="col-xs-12 col-sm-6">
+            <h5>{{video.title}}</h5>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" [src]="('http://www.youtube.com/embed/' + video.source + '?rel=0&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=dark') | safeUrl" allowfullscreen></iframe>
+            </div>
+        </article>
+    </section>
+</section>

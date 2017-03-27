@@ -1,0 +1,71 @@
+.news .media-object {
+    width: 100px;
+}
+
+.media {
+    padding: 10px 0 20px;
+    border-bottom: 1px solid white;
+}
+
+.media:last-child {
+    border: 0;
+}
+
+.media-body,
+.media-left,
+.media-right {
+    padding-top: 10px;
+}
+
+.list-group-item {
+    border-color: gray;
+    background: #222;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.shows .separator {
+    margin-bottom: 20px;
+}
+
+.sebm-google-map-container {
+    height: 200px;
+    color: #000;
+}
+
+.trailer iframe {
+    display: block;
+    height: 200px;
+    max-width: 300px;
+    margin: 20px auto 0;
+}
+
+.mainReviews {
+    position: relative;
+}
+
+.mainReviews article {
+    position: absolute;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.mainReviews article.active {
+    position: relative;
+    opacity: 1;
+}
+
+.mainReviews p {
+    margin-top: 5px;
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+    .news {
+        margin-bottom: 15px;
+    }
+}
