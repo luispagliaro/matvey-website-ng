@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
     shows: Shows[];
     reviews: Reviews[];
     errorMessage: string;
-    private showShows: boolean;
+    showShows: boolean;
     private previewIndex: number;
     private activePreview: number;
 

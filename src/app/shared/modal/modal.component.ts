@@ -11,8 +11,8 @@ import { Photos } from '../../photos/photos.model';
     styleUrls: ['./modal.component.css']
 })
 export class ModalComponent {
-    private modalTitle: string;
-    private album: Photos;
+    modalTitle: string;
+    album: Photos;
 
     @ViewChild('modal') public modal: ModalDirective;
     @ViewChild('carousel') public carousel: CarouselComponent;
