@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 import { Band } from './band.model';
 
@@ -10,10 +11,15 @@ import { BandService } from './band.service';
     styleUrls: ['./band.component.css']
 })
 export class BandComponent implements OnInit {
+    pageTitle: string = 'Matvey - Banda';
     band: Band;
     errorMessage: string;
 
-    constructor(private bandService: BandService) {
+    constructor(
+        private bandService: BandService,
+        private titleService: Title
+    ) {
+        this.titleService.setTitle(this.pageTitle);
         this.band = new Band();
     }
 

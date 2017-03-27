@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 import { Discography } from './discography.model';
 
@@ -10,12 +11,17 @@ import { DiscographyService } from './discography.service';
     styleUrls: ['./discography.component.css']
 })
 export class DiscographyComponent implements OnInit {
+    pageTitle: string = 'Matvey - Discografía';
     discography: Discography[];
     errorMessage: string;
 
-    constructor(private discographyService: DiscographyService) { }
+    constructor(
+        private discographyService: DiscographyService,
+        private titleService: Title
+    ) { }
 
     ngOnInit() {
+        this.titleService.setTitle(this.pageTitle);
         this.getDiscography();
     }
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 import { Reviews } from './reviews.model';
 
@@ -10,13 +11,18 @@ import { ReviewsService } from './reviews.service';
     styleUrls: ['./reviews.component.css']
 })
 export class ReviewsComponent implements OnInit {
+    pageTitle: string = 'Matvey - Reseñas';
     reviews: Reviews[];
     selectedReview: Reviews;
     errorMessage: string;
 
-    constructor(private reviewsService: ReviewsService) { }
+    constructor(
+        private reviewsService: ReviewsService,
+        private titleService: Title
+    ) { }
 
     ngOnInit() {
+        this.titleService.setTitle(this.pageTitle);
         this.getReviews();
     }
 

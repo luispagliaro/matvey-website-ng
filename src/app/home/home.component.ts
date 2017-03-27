@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 import { News } from './news.model';
 import { Shows } from './shows.model';
@@ -14,22 +15,24 @@ import { ReviewsService } from '../reviews/reviews.service';
     styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+    pageTitle: string = 'Matvey - Sitio Oficial';
     news: News[];
     shows: Shows[];
     reviews: Reviews[];
     errorMessage: string;
     private showShows: boolean;
-    private showPreview: boolean;
     private previewIndex: number;
     private activePreview: number;
 
     constructor(
         private newsService: NewsService,
         private showsService: ShowsService,
-        private reviewsService: ReviewsService
+        private reviewsService: ReviewsService,
+        private titleService: Title
     ) { }
 
     ngOnInit(): void {
+        this.titleService.setTitle(this.pageTitle);
         this.activePreview = 0;
 
         this.getNews();

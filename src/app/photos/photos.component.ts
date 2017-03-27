@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 import { Photos } from './photos.model';
 
@@ -14,15 +15,20 @@ import { ModalComponent } from '../shared/modal/modal.component';
     ]
 })
 export class PhotosComponent implements OnInit {
+    pageTitle: string = 'Matvey - Fotos';
     photos: Photos[];
     errorMessage: string;
 
     @ViewChild(ModalComponent)
     private modalComponent: ModalComponent;
 
-    constructor(private photosService: PhotosService) { }
+    constructor(
+        private photosService: PhotosService,
+        private titleService: Title
+    ) { }
 
     ngOnInit() {
+        this.titleService.setTitle(this.pageTitle);
         this.getPhotos();
     }
 
