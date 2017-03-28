@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { DiscographyComponent } from './discography.component';
 
-import { DiscographyService } from './discography.service';
+import { DiscographyService } from './shared/discography.service';
 
 import { DiscographyRoutingModule } from './discography-routing.module';
 

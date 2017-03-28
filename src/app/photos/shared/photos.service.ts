@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 
-import { handleError } from '../shared/utilities.service';
+import { handleError } from '../../shared/utilities';
 
 import { Photos } from './photos.model';
 

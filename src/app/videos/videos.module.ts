@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { VideosComponent } from './videos.component';
 
-import { VideosService } from './videos.service';
+import { VideosService } from './shared/videos.service';
 
 import { VideosRoutingModule } from './videos-routing.module';
 import { SharedModule } from '../shared/shared.module';

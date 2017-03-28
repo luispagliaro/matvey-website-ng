@@ -1,4 +1,4 @@
-import { News } from '../../home/news.model';
+import { News } from '../../home/shared/news.model';
 
 // { title: ``, text: ``, imgName: '', imgAlt: `` },
 

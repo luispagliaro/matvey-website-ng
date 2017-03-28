@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
-import { News } from './news.model';
-import { Shows } from './shows.model';
-import { Reviews } from '../reviews/reviews.model';
+import { News } from './shared/news.model';
+import { Shows } from './shared/shows.model';
+import { Reviews } from '../reviews/shared/reviews.model';
 
-import { NewsService } from './news.service';
-import { ShowsService } from './shows.service';
-import { ReviewsService } from '../reviews/reviews.service';
+import { NewsService } from './shared/news.service';
+import { ShowsService } from './shared/shows.service';
+import { ReviewsService } from '../reviews/shared/reviews.service';
 
 @Component({
     selector: 'app-home',

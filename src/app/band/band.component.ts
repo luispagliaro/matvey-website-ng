@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
-import { Band } from './band.model';
+import { Band } from './shared/band.model';
 
-import { BandService } from './band.service';
+import { BandService } from './shared/band.service';
 
 @Component({
     selector: 'app-band',

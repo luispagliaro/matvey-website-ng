@@ -1,4 +1,4 @@
-import { Band } from '../../band/band.model';
+import { Band } from '../../band/shared/band.model';
 
 export let band: Band = {
     history: `Matvey es una banda de heavy metal tradicional, formada en Argentina, más precisamente en la ciudad de Rosario en el año 2007 entre Diego De Santiago (guitarra) y Pablo Podestá (voz), luego se unieron a la formación Lucas Caballero (bajo) Mariano Gauna (batería).

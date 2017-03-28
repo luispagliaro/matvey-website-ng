@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
-import { Reviews } from './reviews.model';
+import { Reviews } from './shared/reviews.model';
 
-import { ReviewsService } from './reviews.service';
+import { ReviewsService } from './shared/reviews.service';
 
 @Component({
     selector: 'app-reviews',

@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
-import { Videos } from './videos.model';
+import { Videos } from './shared/videos.model';
 
-import { VideosService } from './videos.service';
+import { VideosService } from './shared/videos.service';
 
 @Component({
     selector: 'app-videos',

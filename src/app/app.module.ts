@@ -4,7 +4,6 @@ import { HttpModule } from '@angular/http';
 
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api/in-memory-web-api.module';
 import { InMemoryDataService } from './core/in-memory-data.service';
-import './shared/rxjs-extensions';
 
 import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';

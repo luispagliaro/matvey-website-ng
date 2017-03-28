@@ -1,9 +1,9 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
-import { Photos } from './photos.model';
+import { Photos } from './shared/photos.model';
 
-import { PhotosService } from './photos.service';
+import { PhotosService } from './shared/photos.service';
 
 import { ModalComponent } from '../shared/modal/modal.component';
 

@@ -1,4 +1,4 @@
-import { Discography } from '../../discography/discography.model'
+import { Discography } from '../../discography/shared/discography.model'
 
 export let discography: Discography[] = [
     {

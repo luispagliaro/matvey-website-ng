@@ -1,4 +1,4 @@
-import { Videos } from '../../videos/videos.model';
+import { Videos } from '../../videos/shared/videos.model';
 
 export let videos: Videos[] = [
     {

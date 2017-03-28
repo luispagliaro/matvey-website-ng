@@ -1,4 +1,4 @@
-import { Reviews } from '../../reviews/reviews.model';
+import { Reviews } from '../../reviews/shared/reviews.model';
 
 export let reviews: Reviews[] = [
     { id: 'reinandoEfectoMetal', title: `'Reinando Entre Colinas' por Efecto Metal`, date: '2017', text: `De la mano de Matvey llegan sonidos épicos, grandiosos y potentes generados en Rosario pero inspirados en la más puta tradición nórdica. Esta banda, formada en 2007, tiene a Pablo Podestá como un cantante de esos que suben hasta el infinito sin ninguna dificultad mientras el machaque power metalero no para un segundo. Escuchen "El Bosque De Los Misterios" y después me cuentan. Gran trabajo de los teclades haciendo interesantes colchones y sumando a la cabalgata metálica. "Legado De Un Reino" es otro temazo. Un álbum lleno de climas, buenas letras e historias, totalmente recomendable para fanáticos del metal en todos sus géneros.`, preview: `...Un álbum lleno de climas, buenas letras e historias, totalmente recomendable para fanáticos del metal en todos sus géneros.`, source: '', publisher: 'Carlos M. Rosa' },

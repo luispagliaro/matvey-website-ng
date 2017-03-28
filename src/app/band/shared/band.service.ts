@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 
-import { extractData, handleError } from '../shared/utilities.service';
+import { extractData, handleError } from '../../shared/utilities';
 
 import { Band } from './band.model';
 

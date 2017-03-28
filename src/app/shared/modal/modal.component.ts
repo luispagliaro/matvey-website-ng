@@ -3,7 +3,7 @@ import { Component, ViewChild } from '@angular/core';
 import { ModalDirective } from 'ng2-bootstrap/modal';
 import { CarouselComponent } from '../carousel/carousel.component';
 
-import { Photos } from '../../photos/photos.model';
+import { Photos } from '../../photos/shared/photos.model';
 
 @Component({
     selector: 'app-modal',

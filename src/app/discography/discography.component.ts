@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
-import { Discography } from './discography.model';
+import { Discography } from './shared/discography.model';
 
-import { DiscographyService } from './discography.service';
+import { DiscographyService } from './shared/discography.service';
 
 @Component({
     selector: 'app-discography',

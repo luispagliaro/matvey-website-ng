@@ -2,7 +2,7 @@ import { Component, Input, ViewEncapsulation, ViewChild } from '@angular/core';
 
 import { CarouselConfig, CarouselComponent as Ng2BCarouselComponent } from 'ng2-bootstrap/carousel';
 
-import { Photos } from '../../photos/photos.model';
+import { Photos } from '../../photos/shared/photos.model';
 
 @Component({
     selector: 'app-carousel',

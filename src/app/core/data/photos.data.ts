@@ -1,4 +1,4 @@
-import { Photos } from '../../photos/photos.model';
+import { Photos } from '../../photos/shared/photos.model';
 
 export let photos: Photos[] = [
     { id: 'grooveland-09-05-2015', title: 'Grooveland Escalada (09-05-2015)', amount: 16, photosNumbers: [] },

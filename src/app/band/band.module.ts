@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { BandComponent } from './band.component';
 
-import { BandService } from './band.service';
+import { BandService } from './shared/band.service';
 
 import { BandRoutingModule } from './band-routing.module';
 
