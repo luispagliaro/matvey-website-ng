@@ -1,6 +1,7 @@
 .thumbnail {
     max-width: 284px;
     margin: 0 auto 20px;
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
