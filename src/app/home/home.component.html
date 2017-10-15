@@ -22,7 +22,7 @@
         <h2>Recitales</h2>
         <hr class="separator">
 
-        <sebm-google-map [latitude]="-36.876874" [longitude]="-63.437442" [zoom]="3" [usePanning]="true">
+        <sebm-google-map [latitude]="-33.698807" [longitude]="-59.839153" [zoom]="6" [usePanning]="true">
             <sebm-google-map-marker *ngFor="let show of shows" [latitude]="show.lat" [longitude]="show.lng" [title]="show.name" [openInfoWindow]="true">
                 <sebm-google-map-info-window>
                     <h5 class="list-group-item-heading">{{show.name}}</h5>

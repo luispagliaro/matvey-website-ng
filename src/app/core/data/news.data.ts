@@ -1,8 +1,20 @@
 import { News } from '../../home/shared/news.model';
 
-// { title: ``, text: ``, imgName: '', imgAlt: `` },
+// { title: ``, date: '', text: ``, imgName: '', imgAlt: `` },
 
 export let news: News[] = [
+    { title: `Matvey Junto A David Shankle`, date: '15/10/2017', text: `Matvey se presentará en el Parque Sarmiento (Carcarañá, Santa Fe) el día Sábado 2 de Diciembre a las 21 hs.
+    
+Feanor, interpretará el disco 'The Triumph Of Steel', junto David Shankle, el guitarrista coautor de 5 canciones (de un total de 7) del histórico álbum de Manowar.
+    
+También se presentarán Maledictis, Curwen y Dhak.`, imgName: 'parque-sarmiento-(02-12-2017).jpg', imgAlt: `Flyer del recital en Parque Sarmiento, Carcarañá (02-12-2017)` },
+    { title: `Proximos Recitales`, date: '13/10/2017', text: `La banda anuncia tres nuevos recitales para los siguientes meses:
+    
+26 de Noviembre en 'La Colorada Music Bar' (Honorio Pueyrredon 41, Caballito, Buenos Aires).
+2 de Diciembre en la ciudad de Carcarañá junto a David Shankle (Ex-Manowar) (Lugar a anunciar).
+15 de Diciembre en Rockan Bar (Buenos Aires 1092, Rosario, Santa Fe).
+
+Más información y flyers de los eventos en los próximos días.`, imgName: '', imgAlt: `` },
     {
         title: `Matvey en Animal Rock`, date: '12/03/2017', text: `Matvey se presentará junto a Charger X en Animal Rock (Mendoza 2754, Rosario, Santa Fe) el día Sábado 29 de Abril a las 22 hs.
 

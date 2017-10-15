@@ -41,6 +41,12 @@
   color: #fff;
 }
 
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+  text-decoration: none;
+  color: #ffd700;
+}
+
 .nav > li {
   height: 35px;
 }
