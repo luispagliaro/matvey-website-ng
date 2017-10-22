@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 
-import { extractData, handleError } from '../../shared/utilities';
+import { handleError } from '../../shared/utilities';
 
 import { Band } from './band.model';
 
@@ -15,7 +15,7 @@ export class BandService {
 
     getBand(): Observable<Band> {
         return this.http.get(this.bandUrl)
-            .map(extractData)
+            .map(response => response.json() as Band[])
             .catch(handleError);
     }
 }

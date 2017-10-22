@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 
-import { extractData, handleError } from '../../shared/utilities';
+import { handleError } from '../../shared/utilities';
 
 import { News } from './news.model';
 
@@ -15,7 +15,7 @@ export class NewsService {
 
     getNews(): Observable<News[]> {
         return this.http.get(this.newsUrl)
-            .map(extractData)
+            .map(response => response.json() as News[])
             .catch(handleError);
     }
 }

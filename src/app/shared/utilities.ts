@@ -2,12 +2,6 @@ import { Headers, Http, Response, RequestOptions } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 
-export function extractData(res: Response) {
-    let body = res.json();
-
-    return body.data || {};
-}
-
 export function handleError(error: Response | any) {
     let errMsg: string;
 

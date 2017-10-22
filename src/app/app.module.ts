@@ -13,9 +13,9 @@ import { HomeModule } from './home/home.module'
 
 import { AppRoutingModule } from './app-routing.module';
 
-import { AgmCoreModule } from 'angular2-google-maps/core';
-import { ModalModule } from 'ng2-bootstrap/modal';
-import { CarouselModule } from 'ng2-bootstrap/carousel';
+import { AgmCoreModule } from '@agm/core';
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
     declarations: [

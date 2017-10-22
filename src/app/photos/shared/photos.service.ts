@@ -17,7 +17,7 @@ export class PhotosService {
     getPhotos(): Observable<Photos[]> {
         return this.http.get(this.photosUrl)
             .map(e => {
-                this.photos = e.json().data
+                this.photos = e.json()
                     .map((p: Photos) => {
                         p.photosNumbers = Array.from(
                             new Array(p.amount),

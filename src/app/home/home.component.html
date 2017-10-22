@@ -3,7 +3,7 @@
 
     <hr class="separator">
 
-    <article *ngFor="let new of news" class="media">
+    <article *ngFor="let new of news | async" class="media">
         <h4 class="media-heading">{{new.title}}</h4>
         <time>{{new.date}}</time>
         <div class="media-body">
@@ -22,15 +22,15 @@
         <h2>Recitales</h2>
         <hr class="separator">
 
-        <sebm-google-map [latitude]="-33.698807" [longitude]="-59.839153" [zoom]="6" [usePanning]="true">
-            <sebm-google-map-marker *ngFor="let show of shows" [latitude]="show.lat" [longitude]="show.lng" [title]="show.name" [openInfoWindow]="true">
-                <sebm-google-map-info-window>
+        <agm-map [latitude]="-33.698807" [longitude]="-59.839153" [zoom]="6" [usePanning]="true">
+            <agm-marker *ngFor="let show of shows" [latitude]="show.lat" [longitude]="show.lng" [title]="show.name" [openInfoWindow]="true">
+                <agm-info-window>
                     <h5 class="list-group-item-heading">{{show.name}}</h5>
                     <time>{{show.date}} a las {{show.time}} hs</time>
                     <address>{{show.venue}}, {{show.address}}</address>
-                </sebm-google-map-info-window>
-            </sebm-google-map-marker>
-        </sebm-google-map>
+                </agm-info-window>
+            </agm-marker>
+        </agm-map>
 
         <ul class="list-group">
             <li *ngFor="let show of shows" class="list-group-item">

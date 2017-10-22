@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { Observable } from 'rxjs/Observable';
+
+import 'rxjs/add/observable/of';
 
 import { News } from './shared/news.model';
 import { Shows } from './shared/shows.model';
@@ -16,7 +19,7 @@ import { ReviewsService } from '../reviews/shared/reviews.service';
 })
 export class HomeComponent implements OnInit {
     pageTitle: string = 'Matvey - Sitio Oficial';
-    news: News[];
+    news: Observable<News[]>;
     shows: Shows[];
     reviews: Reviews[];
     errorMessage: string;
@@ -43,7 +46,7 @@ export class HomeComponent implements OnInit {
     getNews(): void {
         this.newsService.getNews()
             .subscribe(
-            news => this.news = news,
+            news => this.news = Observable.of<News[]>(news),
             error => this.errorMessage = <any>error
             );
     }

@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 
-import { extractData, handleError } from '../../shared/utilities';
+import { handleError } from '../../shared/utilities';
 
 import { Shows } from './shows.model';
 
@@ -15,7 +15,7 @@ export class ShowsService {
 
     getShows(): Observable<Shows[]> {
         return this.http.get(this.showsUrl)
-            .map(extractData)
+            .map(response => response.json() as Shows[])
             .catch(handleError);
     }
 }

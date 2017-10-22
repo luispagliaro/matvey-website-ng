@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 
-import { extractData, handleError } from '../../shared/utilities';
+import { handleError } from '../../shared/utilities';
 
 import { Discography } from './discography.model';
 
@@ -15,7 +15,7 @@ export class DiscographyService {
 
     getDiscography(): Observable<Discography[]> {
         return this.http.get(this.discographyUrl)
-            .map(extractData)
+            .map(response => response.json() as Discography[])
             .catch(handleError);
     }
 }

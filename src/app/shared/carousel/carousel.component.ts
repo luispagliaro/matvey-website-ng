@@ -1,6 +1,6 @@
 import { Component, Input, ViewEncapsulation, ViewChild } from '@angular/core';
 
-import { CarouselConfig, CarouselComponent as Ng2BCarouselComponent } from 'ng2-bootstrap/carousel';
+import { CarouselConfig, CarouselComponent as Ng2BCarouselComponent } from 'ngx-bootstrap/carousel';
 
 import { Photos } from '../../photos/shared/photos.model';
 

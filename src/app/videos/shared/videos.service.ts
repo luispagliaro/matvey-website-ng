@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 
-import { extractData, handleError } from '../../shared/utilities';
+import { handleError } from '../../shared/utilities';
 
 import { Videos } from './videos.model';
 
@@ -16,7 +16,7 @@ export class VideosService {
 
     getVideos(): Observable<Videos[]> {
         return this.http.get(this.videosUrl)
-            .map(extractData)
+            .map(response => response.json() as Videos[])
             .catch(handleError);
     }
 }
