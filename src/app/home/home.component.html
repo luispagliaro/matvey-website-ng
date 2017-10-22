@@ -9,7 +9,7 @@
         <div class="media-body">
             <p>{{new.text}}</p>
         </div>
-        <div class="media-right">
+        <div class="media-right" *ngIf="new.imgName !== ''">
             <a href="/assets/images/news/{{new.imgName}}" target="_blank">
                 <img class="media-object" width="100" src="/assets/images/news/{{new.imgName}}" alt="{{new.imgAlt}}">
             </a>

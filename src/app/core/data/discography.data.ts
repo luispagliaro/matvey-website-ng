@@ -1,6 +1,13 @@
 import { Discography } from '../../discography/shared/discography.model'
 
 export let discography: Discography[] = [
+    { title: 'Forest Of Mysteries (2017)', info: `Single que incluye la primer canción en otro idioma grabada por la banda, 'Forest Of Mysteries', la cual es la versión en inglés del tema 'El Bosque De Los Misterios' incluído en el disco 'Reinando Entre Colinas'. Además, el single incluye dos covers grbados para discos tributos editados por Versailles Records.
+
+Listado de temas:
+
+1. Forest Of Mysteries (Versión en inglés de 'El Bosque De Los Misterios')
+2. Hero (Ozzy Osboure Cover)
+3. Neon Knights (Black Sabbath Cover)`, imgName: 'forest-of-mysteries-cover.jpg', audio: 'forest-of-mysteries.mp3' },
     {
         title: 'Reinando Entre Colinas (2014)', info: `'Reinando Entre Colinas' es el álbum debut de Matvey. El disco fue grabado, mezclado y masterizado en "GnosisStudio", Rosario, Santa Fe, Argentina durante el año 2011 y publicado en el año 2014 por Electric Punishment Records.
 

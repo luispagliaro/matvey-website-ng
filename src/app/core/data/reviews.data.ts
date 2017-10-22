@@ -2,7 +2,68 @@ import { Reviews } from '../../reviews/shared/reviews.model';
 
 // { id: '', title: ``, date: '', text: ``, preview: ``, source: '', publisher: '' },
 export let reviews: Reviews[] = [
-    { id: 'reinandoDiosesMetal', title: `Nacidos Para Reinar por Dioses del Metal`, date: '2017', text: `Amigos de Dioses del Metal, el ritmo diario nos impide rescatar discos de otros años pero cuando me cae algo así por casualidad cósmica, proporcionado por Diego de Santiago, guitarrista de los argentinos (Rosario) Matvey, tengo que dedicarle unas líneas por convicción y cortesía.
+    { id: 'entrevDiosesMetal', title: `Entrevista a Matvey por Dioses Del Metal`, date: '2017', text: `Amigos de Dioses del Metal, desde tierras argentinas, pujando por hacerse un hueco en la escena os traemos a  Matvey, gracias por dedicarnos tiempo y palabras. Os presento, ellos son Pablo Podestá (voz), Diego de Santiago (Guitarra), Marcos (Bajo) y Mariano Gauna (Batería). La review de vuestro disco, Reinando entre colinas, la podemos leer aquí.
+    
+- Bueno Diego, pues hechas las presentaciones creo que debemos comenzar. ¿Cómo se vive el Metal allende los mares?, concretamente en vuestra ciudad natal, Rosario, ¿hay locales, conciertos, bandas, la gente responde, podemos decir que está en auge….?.
+    
+¿Como estás Luis?, saludos a toda la hermandad metálica española!, aquí en Rosario hay una linda movida metalera que en estos 4 o 5 años a comenzado a vislumbrarse algo más activa desde que comenzaron a llegar más shows internacionales y algunos organizadores locales que pusieron empeño en organizar shows, en algunos casos jugándose de buena manera si bien no abundan en gran medida los lugares para poder tocar, lo destacable es que los que hay son muy buenos. ¡Desde ya soy muy optimista y creo va a seguir creciendo!.
+    
+- ¿Cuál creéis que deben ser las cualidades más importantes en las personas para que una banda funcione?.  ¿Es difícil encontrar a gente comprometida con un proyecto musical?.
+    
+Muy buena pregunta!. En mi opinión una de las cualidades que se debe tener es el respeto al otro, o sea el hacer sentir a cada integrante que es parte del todo en la banda, que tiene voz y voto dentro, digamos no debe haber cuestiones de ego. Y esto está en parte conectado con la siguiente pregunta, ¿es difícil encontrar gente comprometida?. Si desde ya, porque al no ser estar trabajando con remuneración monetaria no cualquiera se anima a jugársela y subirse al tren, en nuestro caso se han cambiado algunos integrantes por distintos compromisos laborales que no les permitía seguir transitando este difícil camino.
+    
+- Estamos frente a una formación creada en 2007, en 2009 grabáis vuestro primer álbum, titulado Reinará En La Batalla, el cual contiene 13 canciones pero por diversas razones no pudo ser editado, ¿solo la falta de apoyo económico tuvo la culpa?.
+    
+En este caso en particular no fue lo económico sino que no estábamos 100 % convencidos de que este era el material a sacar a la luz representando a la banda. Fue si un buen comienzo para lo que vendría luego, ese material nos ayudó a seguir creciendo a nivel compositivo y sonoro para luego llegar a ser lo que es actual disco del cual estamos muy orgullosos.
+    
+- Hubo que esperar hasta 2014 para vuestro primer lanzamiento, Reinando entre colinas, bajo el sello Electric Punishment Records, ¿os encontraron o lo buscasteis?.
+    
+Esa es una buena historia para contar, uno siempre busca que su trabajo pueda ser evaluado y editado por un sello porque realmente enviamos a muchos sellos el material con  diversas respuestas pero nada en concreto, pero en este caso puntual fue de otra manera paso a contar…previo a la edición por parte de E. Punishment habíamos una edición a pulmón como se dice habitualmente y para promocionarla empezamos a tocar bastante sin percatar que hacía ya un año aproximadamente, la gente del sello estaba siguiéndonos los pasos ya habiendo escuchado esta edición que comentaba antes y haciéndose presente en nuestros shows sin que nosotros lo sepamos, con la finalidad también de analizar la performance de la banda en vivo. Recuerdo cuando recibí la  llamada De Fernando Sobrevile, para organizar una reunión con la banda para tratar el tema de firma de contrato y demás detalles para una edición profesional de nuestro material, un día extraordinario fue realmente.
+    
+- Este año habéis puesto en circulación un single de una edición limitada a 50 copias con el “Bosque de los misterios” en inglés y un par de cover, ¿calentando motores para lo que se avecina?.
+    
+Si, si en parte es orientado a es, fue una muy buena idea de la gente de Electric Punishment que propuso sacar un single con 3 canciones, una versión como bien mencionas en inglés del “Bosque de los Misterios” y dos cobres, que son parte cada uno de distintos discos tributos grabados para el sello Versailles de Estados Unidos, para el cual hace unos años venimos integrando distintos tributos. En este caso son “Hero” perteneciente al disco No rest for the wicked de Ozzy Osbourne y “Neon knights” del disco Heaven and Hell de Black Sabbath, para el tributo a RONNIE JAMES DIO. La verdad, una muy buena idea para que no se pierda ese material que dicho sea de paso, quedaron contundentes las versiones.
+    
+- Y ya puestos, ¿qué se avecina próximamente para Matvey?, ¿nubarrones épicos o batallas ganadas?.
+    
+Jejeje, siempre hay algunos nubarrones épicos los cuales luego se transforman con trabajo y dedicación en batallas ganadas, es propio del crecimiento como banda desde ya ¡!.
+    
+- Soberbia portada la de Reinando entre colinas, ¿quién fue el autor del diseño e idea?.
+    
+Si, la verdad esta muy, muy buena la portada ya que al verla te sugiere que acá vas a escuchar algo que te va a llevar dentro de esas historias medievales de batallas épicas!. La idea fue propuesta por la producción de Electric Punishment la que nos enseñó varias ideas hasta que llegó esta portada y automáticamente se dijo, “Si, Si señores eso es lo que se buscaba debe ser esta la portada!!!”.
+    
+- Los títulos de las canciones, el del disco, letras que nos hablan de épica, conquistas, reinos y batallas, ¿os apasiona esa ambientación?.
+    
+Si, si absolutamente nos apasiona todo lo medieval, épico, somos grandes seguidores de ese tema no solo libros sino películas y todo lo que tenga que ver con ello y se pudo dejar plasmado en el disco. No fue fácil porque tienes que lograr crear ese clima al escucharlos temas que te lleven a imaginar esa historia que se esta contando sin aburrir al oyente.
+    
+- Vuestro estilo no es el típico Power Metal facilón y machacón, predecible y hasta aburrido. Habéis ha explorado con éxito otros matices, endureciendo la propuesta y proporcionando sensaciones plúmbeas y garra afilada a cada canción, ¿estilo Matvey?.
+    
+Gracias por los calificativos  ya que ahí está parte de lo que mencione en preguntas anteriores. El desafío era buscar esos matices que hagan que si eres metalero quieras escuchar reiteradas veces el disco sin aburrirte y si no lo eres, que puedas escuchar los temas y sean atractivos escuchables agradables al oído del oyente y como bien mencionabas no ser repetitivo ni aburrido y estoy absolutamente convencido que eso se logró también porque cada integrante tiene su espacio para crear libremente, eso hace que el músico este 100% comprometido y los resultados no me dejan mentir!. Y se apunta a eso a que sea estilo MATVEY!.
+    
+- En las composiciones destaco la variedad, bien hechas y atractivas, ¿cómo compone Matvey?, ¿entre todos, alguien lleva todo el peso en solitario….?.
+    
+Que buen punto Luis, el tema de la composición es de la siguiente manera, la parte musical y la presentación de la idea es por mi parte, no porque se decidió que así fuera sino que se dio ya que siempre estoy trabajando nuevas ideas, luego con la idea cada músico va contribuyendo con su instrumento y por el tema de las letras son prácticamente escritas en un 90% por Pablo, que la verdad tiene una facilidad maravillosa para ello que es para destacar.
+    
+- ¿Grupos internacionales que os  influyen en vuestra música?. ¿Algún nacional en que fijarse?.
+    
+Internacionales muchos ya que tenemos muchísimas influencias y de varios estilos, te nombro algunos  para que veas,  Pablo es seguidor de Iron Maiden, Manowar, Judas Priest, Dio y mucho, para nombrar algunas y mucho Heavy Rock de los 80. Yo a parte del Heavy Rock de los 80 que es mi mayor influencia y bandas como Ozzy o Dio, escucho bandas como Génesis, Marillion entre otras, de todas algo se aprende y eso da como resultado MATVEY.  Como bandas locales en Argentina muchas veces nos dicen que tenemos algo de cercanía a Rata Blanca o los míticos Tierra Santa, pero bueno eso os dejo a ustedes el encuadre yo creo al no ser como uno u otro estamos logrando ser Matvey .
+    
+- ¿Cómo fue recibido Reinando entre colinas por la crítica y el público? ¿Fue un empujón de moral a la Banda?
+    
+La verdad fue muy bien recibido y contamos con muy buenas críticas lo que permitió que la placa este girando por toda América y por Europa está por Francia, Italia, Alemania, Japón,  Inglaterra y bueno, estamos viendo de que este por España también . Con respecto a lo anímico, es maravilloso un envión enorme, es algo muy gratificante que tu música sea apreciada en otros lugares del planeta, creo que eso es lo que todo músico sueña que se realice con su obra,  que llegue a otros y que sea de su agrado!.
+    
+- ¿En vuestro próximo trabajo vais a cambiar, mutar o evolucionar vuestro estilo?, o vamos a encontrar algo muy parecido a lo hecho hasta ahora.
+    
+El próximo trabajo apuntamos a la evolución sin perderla esencia de Matvey, siempre apuntando a hacer canciones que agraden con melodías pegadizas y potentes riffs.
+    
+- Deseos, actividades, inquietudes…para lo que queda de año.
+    
+Como deseo es que la banda continúe con su crecimiento y que nuestra música pueda llegar a mas lugares cada año!. Como actividades concluir el nuevo material para finales de este año para luego poder presentarlo a principios del próximo .Y como inquietud, el poder ya el próximo año presentar lo nuestro por el viejo continente que estoy seguro tenemos varias batallas por dar!!.
+    
+- Pues Diego, todo el tiempo y espacio para despedirte de vuestros fans, hemos llegado al final, ha sido un placer, suerte en el camino y un abrazo de acero.
+    
+Desde ya muy agradecido Luis por el espacio para que los hermanos metaleros del viejo continente vayan conociendo algo de la banda, un gran abrazo metalero y espero con ansiedad encontrarlos en algún show por allí.`, preview: ``, source: 'https://diosesdelmetal.org/entrevista-a-matvey/', publisher: 'luishard' },
+    { id: 'reinandoDiosesMetal', title: `'Reinando Entre Colinas' por Dioses del Metal`, date: '2017', text: `Amigos de Dioses del Metal, el ritmo diario nos impide rescatar discos de otros años pero cuando me cae algo así por casualidad cósmica, proporcionado por Diego de Santiago, guitarrista de los argentinos (Rosario) Matvey, tengo que dedicarle unas líneas por convicción y cortesía.
     
 Estamos frente a una formación creada en 2007, en 2009 graban su primer álbum, titulado Reinará En La Batalla, el cual contiene 13 canciones pero por diversas razones el álbum no pudo ser editado por lo que se convirtió en una demo para entregar a las audiencias y hubo que esperar hasta 2014 para escuchar al álbum que comento ahora, Reinando entre colinas, lanzado en septiembre bajo el sello Electric Punishment Records. Lo último de ellos es de este año, con un single de una edición limitada a 50 copias con el “Bosque de los misterios” en inglés y un par de cover.
     
@@ -73,9 +134,7 @@ A “Matvey” se lo puede contactar de la siguiente manera:
 Página Web: www.matvey.com.ar
 Facebook: Buscanos como “Matvey”
 E-mail: contacto.matveyargentina@gmail.com
-Teléfonos: 0341-156603523 (Pablo Podestá) 0341-152096575 (Diego De Santiago)
-
-Entrevista realizada por Lorenzo "El Brujo" Lopez`, preview: ``, source: 'http://www.metal-argento.com.ar/contenido/wp/index.php/entrevista-a-pablo-podesta-matvey/', publisher: 'Lorenzo "El Brujo" Lopez'
+Teléfonos: 0341-156603523 (Pablo Podestá) 0341-152096575 (Diego De Santiago)`, preview: ``, source: 'http://www.metal-argento.com.ar/contenido/wp/index.php/entrevista-a-pablo-podesta-matvey/', publisher: 'Lorenzo "El Brujo" Lopez'
     },
 
     {

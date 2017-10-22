@@ -30,7 +30,8 @@ Participó en varias bandas tales como "Eclipse", "Nightfall" y "Van Hellsing". 
 
 Compartió escenario con bandas locales como Gallows Scene, Patán y Tren Loco, entre otras. También ha venturado en programas de radio y televisión de heavy metal.
 
-En el año 2007, junto con Diego De Santiago y Mariano Gauna forma Matvey.`, imgName: 'pablo-podesta.png' },
+En el año 2007, junto con Diego De Santiago y Mariano Gauna forma Matvey.`, imgName: 'pablo-podesta.png'
+        },
         {
             role: 'Guitarra', name: 'Diego De Santiago', bio: `Diego De Santiago, nacido el 14 de Noviembre de 1976 en Rosario, Santa Fe, Argentina, es el guitarrista y compositor de Matvey.
 
@@ -40,7 +41,8 @@ El primer contacto con la Música de Diego fue con música clásica. Luego se in
 
 Diego ha participado en varios proyectos, como "Legion", "Aleph" y "Van Hellsing", entre otros, con los cuales tocó en varios recitales y grabó canciones.
 
-A comienzos del año 2007, decidió formar "Matvey" junto con Pablo Podestá y Mariano Gauna. Desde entonces, Matvey ha participado en importantes festivales junto con bandas Argentinas, como Horcas y Tren Loco.`, imgName: 'diego-de-santiago.png' },
+A comienzos del año 2007, decidió formar "Matvey" junto con Pablo Podestá y Mariano Gauna. Desde entonces, Matvey ha participado en importantes festivales junto con bandas Argentinas, como Horcas y Tren Loco.`, imgName: 'diego-de-santiago.png'
+        },
         {
             role: 'Batería', name: 'Mariano Gauna', bio: `Mariano Gauna nació el 6 de Abril de 1983 en la ciudad de Rosario, Santa Fe, Argentina.
 
@@ -52,6 +54,14 @@ Mariano participó en varios proyectos como "Nightfall" y "Eclipse" junto con Pa
 
 En el 2007, se junta con Pablo Podestá y Diego De Santiago para formar Matvey.
 
-Hoy, forma parte de Matvey junto con Diego De Santiago, Ariel Hausvirth y Pablo Podestá.`, imgName: 'mariano-gauna.png' }
+Hoy, forma parte de Matvey junto con Diego De Santiago, Ariel Hausvirth y Pablo Podestá.`, imgName: 'mariano-gauna.png'
+        },
+        {
+            role: 'Bajo', name: 'Ariel Hausvirth', bio: `Ariel Hausvirth nació el 22 de septiembre de 1981 en la ciudad de Buenos Aires, Capital Federal, Argentina.
+            
+Sus influencias vienen de todos los estilos de música, no sólo limitandosé al rock y metal. Dentro del metal, sus bandas preferidas son Iron Maiden y Judas Priest.
+
+Ariel fue bajista en "Speranthas" antes de sumarse a Matvey en el año 2016.`, imgName: 'ariel-hausvirth.png'
+        }
     ]
 };

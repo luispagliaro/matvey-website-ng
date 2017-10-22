@@ -7,7 +7,7 @@ export let news: News[] = [
     
 Feanor, interpretará el disco 'The Triumph Of Steel', junto David Shankle, el guitarrista coautor de 5 canciones (de un total de 7) del histórico álbum de Manowar.
     
-También se presentarán Maledictis, Curwen y Dhak.`, imgName: 'parque-sarmiento-(02-12-2017).jpg', imgAlt: `Flyer del recital en Parque Sarmiento, Carcarañá (02-12-2017)` },
+También se presentarán Maledictis, Curwen y Sorcerer.`, imgName: 'parque-sarmiento-(02-12-2017).jpg', imgAlt: `Flyer del recital en Parque Sarmiento, Carcarañá (02-12-2017)` },
     { title: `Proximos Recitales`, date: '13/10/2017', text: `La banda anuncia tres nuevos recitales para los siguientes meses:
     
 26 de Noviembre en 'La Colorada Music Bar' (Honorio Pueyrredon 41, Caballito, Buenos Aires).
