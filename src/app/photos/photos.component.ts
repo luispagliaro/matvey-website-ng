@@ -11,7 +11,7 @@ import { ModalComponent } from '../shared/modal/modal.component';
     selector: 'app-photos',
     templateUrl: './photos.component.html',
     styleUrls: [
-        './photos.component.css'
+        './photos.component.less'
     ]
 })
 export class PhotosComponent implements OnInit {

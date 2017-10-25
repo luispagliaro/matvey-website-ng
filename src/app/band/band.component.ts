@@ -8,7 +8,7 @@ import { BandService } from './shared/band.service';
 @Component({
     selector: 'app-band',
     templateUrl: './band.component.html',
-    styleUrls: ['./band.component.css']
+    styleUrls: ['./band.component.less']
 })
 export class BandComponent implements OnInit {
     pageTitle: string = 'Matvey - Banda';

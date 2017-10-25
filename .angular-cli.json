@@ -18,13 +18,18 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "styles.css",
-        "../node_modules/font-awesome/css/font-awesome.min.css"
+        "./styles/bootstrap.less",
+        "./styles/font-awesome.less",
+        "./styles/styles.less"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+        "../node_modules/bootstrap/js/transition.js",
+        "../node_modules/bootstrap/js/button.js",
+        "../node_modules/bootstrap/js/carousel.js",
+        "../node_modules/bootstrap/js/collapse.js",
+        "../node_modules/bootstrap/js/dropdown.js",
+        "../node_modules/bootstrap/js/modal.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
@@ -58,7 +63,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "less",
     "class": {
       "spec": false
     },

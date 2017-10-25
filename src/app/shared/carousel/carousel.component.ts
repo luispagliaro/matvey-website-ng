@@ -7,7 +7,7 @@ import { Photos } from '../../photos/shared/photos.model';
 @Component({
     selector: 'app-carousel',
     templateUrl: './carousel.component.html',
-    styleUrls: ['./carousel.component.css'],
+    styleUrls: ['./carousel.component.less'],
     providers: [{ provide: CarouselConfig, useValue: { interval: 0, noPause: true } }],
     encapsulation: ViewEncapsulation.None
 })

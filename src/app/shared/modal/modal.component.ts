@@ -8,7 +8,7 @@ import { Photos } from '../../photos/shared/photos.model';
 @Component({
     selector: 'app-modal',
     templateUrl: './modal.component.html',
-    styleUrls: ['./modal.component.css']
+    styleUrls: ['./modal.component.less']
 })
 export class ModalComponent {
     modalTitle: string;

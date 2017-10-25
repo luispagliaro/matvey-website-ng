@@ -8,7 +8,7 @@ import { ReviewsService } from './shared/reviews.service';
 @Component({
     selector: 'app-reviews',
     templateUrl: './reviews.component.html',
-    styleUrls: ['./reviews.component.css']
+    styleUrls: ['./reviews.component.less']
 })
 export class ReviewsComponent implements OnInit {
     pageTitle: string = 'Matvey - Reseñas';

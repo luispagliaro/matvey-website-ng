@@ -8,7 +8,7 @@ import { VideosService } from './shared/videos.service';
 @Component({
     selector: 'app-videos',
     templateUrl: './videos.component.html',
-    styleUrls: ['./videos.component.css']
+    styleUrls: ['./videos.component.less']
 })
 export class VideosComponent implements OnInit {
     pageTitle: string = 'Matvey - Videos';

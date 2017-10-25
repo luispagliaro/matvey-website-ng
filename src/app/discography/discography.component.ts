@@ -8,7 +8,7 @@ import { DiscographyService } from './shared/discography.service';
 @Component({
     selector: 'app-discography',
     templateUrl: './discography.component.html',
-    styleUrls: ['./discography.component.css']
+    styleUrls: ['./discography.component.less']
 })
 export class DiscographyComponent implements OnInit {
     pageTitle: string = 'Matvey - Discografía';
