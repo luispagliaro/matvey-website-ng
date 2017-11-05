@@ -43,6 +43,6 @@ export class PhotosComponent implements OnInit {
     }
 
     openGallery(album: Photos): void {
-        this.modalComponent.showModal(album);
+        this.modalComponent.loadAlbum(album);
     }
 }

@@ -10,7 +10,7 @@
             <p>{{new.text}}</p>
         </div>
         <div class="media-right" *ngIf="new.imgName !== ''">
-            <a href="/assets/images/news/{{new.imgName}}" target="_blank">
+            <a (click)="openImage(new.imgName, new.imgAlt)">
                 <img class="media-object" width="100" src="/assets/images/news/{{new.imgName}}" alt="{{new.imgAlt}}">
             </a>
         </div>
@@ -59,3 +59,5 @@
         </article>
     </section>
 </aside>
+
+<app-modal></app-modal>

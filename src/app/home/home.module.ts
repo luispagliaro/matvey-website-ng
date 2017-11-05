@@ -8,13 +8,15 @@ import { ShowsService } from './shared/shows.service';
 import { ReviewsService } from '../reviews/shared/reviews.service';
 
 import { HomeRoutingModule } from './home-routing.module';
+import { SharedModule } from '../shared/shared.module'
 import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
     imports: [
         CommonModule,
         HomeRoutingModule,
-        AgmCoreModule
+        AgmCoreModule,
+        SharedModule
     ],
     declarations: [
         HomeComponent

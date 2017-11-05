@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Observable } from 'rxjs/Observable';
 
@@ -7,6 +7,7 @@ import 'rxjs/add/observable/of';
 import { News } from './shared/news.model';
 import { Shows } from './shared/shows.model';
 import { Reviews } from '../reviews/shared/reviews.model';
+import { ModalComponent } from '../shared/modal/modal.component';
 
 import { NewsService } from './shared/news.service';
 import { ShowsService } from './shared/shows.service';
@@ -26,6 +27,9 @@ export class HomeComponent implements OnInit {
     showShows: boolean;
     private previewIndex: number;
     private activePreview: number;
+
+    @ViewChild(ModalComponent)
+    private modalComponent: ModalComponent;
 
     constructor(
         private newsService: NewsService,
@@ -81,5 +85,9 @@ export class HomeComponent implements OnInit {
                 this.activePreview = 0;
             }
         }, 6000);
+    }
+
+    openImage(imgName, imgAlt): void {
+        this.modalComponent.loadImage(imgName, imgAlt);
     }
 }

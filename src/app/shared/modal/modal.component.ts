@@ -13,13 +13,21 @@ import { Photos } from '../../photos/shared/photos.model';
 export class ModalComponent {
     modalTitle: string;
     album: Photos;
+    image: any;
 
     @ViewChild('modal') public modal: ModalDirective;
     @ViewChild('carousel') public carousel: CarouselComponent;
 
     constructor() { }
 
-    public showModal(album: Photos): void {
+    public loadImage(name, alt): void {
+        this.image = name;
+        this.modalTitle = alt;
+
+        this.modal.show();
+    }
+
+    public loadAlbum(album: Photos): void {
         this.album = album;
         this.modalTitle = album.title;
 
@@ -28,6 +36,6 @@ export class ModalComponent {
 
     public hideModal(): void {
         this.modal.hide();
-        this.carousel.resetCarousel();
+        this.carousel && this.carousel.resetCarousel();
     }
 }

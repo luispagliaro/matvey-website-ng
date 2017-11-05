@@ -8,7 +8,8 @@
         </button>
             </div>
             <div class="modal-body">
-                <app-carousel [album]="album" #carousel></app-carousel>
+                <app-carousel [album]="album" #carousel *ngIf=album></app-carousel>
+                <img src="/assets/images/news/{{image}}" alt="{{modalTitle}}" *ngIf="image">
             </div>
         </div>
     </div>
