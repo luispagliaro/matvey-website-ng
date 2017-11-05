@@ -3,6 +3,9 @@ import { News } from '../../home/shared/news.model';
 // { title: ``, date: '', text: ``, imgName: '', imgAlt: `` },
 
 export let news: News[] = [
+    { title: `Viaja Junto A Matvey Y Maledictis A Ver A David Shankle`, date: '05/11/2017', text: `¿Sos de Rosario y no tenés como ir a Carcarañá a ver a David Shankle? ¡Viaja con nosotros! Matvey y Maledictis te ofrecen viajar en colectivo para no perderte esta noche a puro metal. El costo es de $500 (viaje ida y vuelta + entrada).
+    
+Contactate por FB (www.facebook.com/MatveyHeavyMetal).`, imgName: 'viaje-rosario-carcarana.jpg', imgAlt: `Flyer con información del viaje desde Rosario a Carcarañá` },
     { title: `Matvey Junto A David Shankle`, date: '15/10/2017', text: `Matvey se presentará en el Parque Sarmiento (Carcarañá, Santa Fe) el día Sábado 2 de Diciembre a las 21 hs.
     
 Feanor, interpretará el disco 'The Triumph Of Steel', junto David Shankle, el guitarrista coautor de 5 canciones (de un total de 7) del histórico álbum de Manowar.

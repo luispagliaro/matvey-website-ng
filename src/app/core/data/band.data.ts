@@ -15,7 +15,7 @@ También han sido mencionados y publicado comentarios acerca de su puesta en esc
 
 Para mediados del 2011 y luego de haber recorrido gran parte de Argentina, regresan al estudio para comenzar con la grabación de su nuevo material, y da como resultado luego de algunos meses de grabación el álbum pronto a editarse y publicarse titulado "Reinando entre Colinas" cuenta con 13 temas, puede apreciarse que el álbum posee una amplia variedad de matices dentro del heavy metal, pasando por todo un amplio espectro dentro del metal tradicional con temas que traen reminiscencias de bandas como: Manowar, Primal Fear, Hammerfall, Gamma Ray, Ozzy Osbourne, Yngwie Malsmteen, Iron Maiden, Judas Priest, Black Sabbath, Dio, Haldford, Savatage, nombrando solo algunas de las bandas que han influenciado notoriamente en el sonido y la composición de MATVEY.
 
-En 2015 tras la partida de su bajista Marcos Sartori ingresa como bajista Ariel Hausvirth bajista de Speranthas para ocupar el puesto. El cual grabara para el segundo disco de la banda.
+En 2015 tras la partida de su bajista Marcos Sartori ingresa como bajista Ariel Hausvirth, bajista de Speranthas, para ocupar el puesto y participar en la grabación del segundo disco de la banda.
 
 Actualmente se encuentran realizando distintas presentaciones dentro del país presentando su último trabajo.`,
     members: [
