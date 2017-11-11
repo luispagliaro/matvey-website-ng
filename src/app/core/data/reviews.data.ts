@@ -2,6 +2,57 @@ import { Reviews } from '../../reviews/shared/reviews.model';
 
 // { id: '', title: ``, date: '', text: ``, preview: ``, source: '', publisher: '' },
 export let reviews: Reviews[] = [
+    { id: 'entrevistaCajaRock', title: `Entrevista a Diego De Santiago por La Caja Del Rock`, date: '11/2017', text: `En esta nueva entrevista nos complace presentaros una banda Argentina que viene pisando fuerte y con muchas ganas de darse a conocer fuera de su país. Se trata de Matvey, cuyo disco "Reinando Entre Colinas" ha obtenido muy buenas críticas en su país y que estamos seguros que será del agrado de muchos de nuestros lectores.
+    
+A continuación Diego (guitarrista de Matvey) responde a nuestras preguntas que esperamos que os ayuden a conocer a una banda que esperamos ver muy pronto actuando en nuestro país.
+    
+- Matvey sois una banda argentina de metal tradicional pero nos gustaría saber cuáles son vuestras principales influencias y, para aquellos que no conozcan vuestra música, cuales son las principales características de vuestras composiciones.
+    
+(Diego) Primero un gran saludo a todos los hermanos metaleros del viejo continente, paso a contarte en cuanto a las influencias de la banda son realmente variadas ya que entre ellas podrás encontrar bandas de diferentes estilos por nombrarte algunas : Dio, Judas, Ozzy, Black Sabbath, Iron Maiden, Manowar, Deep Purple, Génesis, Pink Floyd muchísimo hard rock y metal de los 80 y más. Trabajamos para q toda esa conjunción de estilos puede amalgamarse de tal manera que nos pueda brindar una identidad musical, algo que escuches y digas eso suena a Matvey!! Algo realmente en lo que ponemos día a día mucho trabajo para llegar a eso. Ahí ya respondo algo en cuanto a las características de las composiciones, básicamente apuntamos a la creación de canciones que te lleven a recrear con la imaginación lo que se dice en la letra, que contenga melodías pegadizas que te queden dando vueltas en la cabeza, con prolijidad y agradables al oído del oyente en general.
+    
+- ¿De dónde procede el nombre de la banda y cuáles fueron los motivos que os llevaron a seleccionarlo?
+    
+(Diego) Ahhh muy buena pregunta!! No fue nada al alzar sino que fue de la siguiente manera. Hicimos una lista de aproximadamente 200-300 posibles nombres cada uno con su significado y en distintos idiomas lo cual daba a pensar algo así como que ESTA VA A SER UNA TAREA REALMENTE DIFICIL!!!! porque no queríamos poner cualquier nombre sino un nombre que nos represente realmente por ejemplo, que digas a ver esta banda Matvey? Mmm el nombre sugiere algo escuchable y como que te invita a oír la música; y volviendo al tema del porque de la elección pablo el cantante, que tenía una de la listas con nombres nos la entrego e increíblemente todos coincidimos a primera vista en que Matvey debía ser el nombre, o sea, estaba en una de las listas aproximadamente en el número 40 y todos apuntamos ahí directamente sin saber lo que el otro compañero había apuntado y fue así por lo siguiente: Matvey es un nombre de un guerrero ruso que a su vez significa regalo de dios y claro que mejor para lo que queríamos hacer musicalmente justo cerró el circulo perfecto!!! fue más rápido de lo esperado la elección! Orgullosos de nuestro nombre ¡!
+    
+- Ahora nos gustaría hablar un poco de vuestros inicios y que nos contéis como nació Matvey y cuáles eran vuestros principales objetivos cuando decidisteis formar la banda.
+    
+(Diego) Bueno Matvey nace allá por el 2007 como un proyecto en conjunto entre pablo podestá (cantante) y yo diego de Santiago (guitarra) al que luego se fueron agregando los demás miembros. Se fueron dando algunos cambios en la formación hasta la actualidad pero nuestro principal objetivo era hacer algo que realmente nos llenase de satisfacción sin problemas de ego, que cada músico pueda aportar lo suyo libremente sin temer a quedar marginado o limitado y obvio poder plasmar eso en temas agradables al oyente y con el mayor profesionalismo, nada de temas de relleno y claro esta llegar a todos lados con nuestra música!!
+    
+- Las letras de vuestras canciones están basadas en temas épicos y mitológicos, principalmente de la mitología nórdica. ¿Cuáles son los motivos que os han llevado a basaros en la mitología nórdica para las letras de vuestras canciones y qué es lo que más os apasiona de dicha mitología?
+    
+(Diego) Somos seguidores de todo lo relacionado con la mitología nórdica y lo medieval, leer sobre ello, películas, música y nos encantó la posibilidad de contar ese tipo de historias a través de nuestra música y claro desde ya que somos apasionados de esas historias sobre batallas épicas, reinos, reyes, caballeros, magia y todo tipo de leyendas referidas a la misma temática. Fue maravilloso y un gran logro haberlo podido plasmar en un álbum como "Reinando Entre Colinas"!
+    
+- Hasta el momento vuestro álbum titulado "Reinando Entre Colinas" es vuestra publicación más importante. ¿Qué supuso para la banda la publicación de dicho disco y cómo fue la acogida por parte de la prensa especializada y del público?
+    
+(Diego) Para la banda supuso desde ya uno de nuestros primeros objetivos a nivel grupal logrados, sacar un álbum el cual publicamos de manera independiente nos generó una felicidad tremenda y después lo editó el sello Electric Punishment que hizo enormes aportes a nivel de edición y promoción, que creo es el segundo gran paso para la banda que alguien crea en el material que tienes y apueste fuerte por ello sinceramente es un orgullo enorme y estamos muy agradecidos! Y en cuanto a como fue recibido por la prensa la verdad muy muy bien es más, sorprendió a más de uno, lo que no es poca cosa! Y bueno han devuelto unas reviews impresionantes que nos han dejado por demás de felices y orgullosos de lo que hicimos en este primer álbum y lo más importante es que nos marca el camino que debemos continuar y eso es fantástico!!
+    
+- Recientemente habéis publicado un EP con tres temas en inglés, uno de ellos es la versión en inglés de "El Bosque de los Misterios". ¿Cuáles son los principales objetivos que os habéis marcado cumplir con este nuevo trabajo cantado en inglés?
+    
+(Diego) Bueno lo de los temas del EP sale de una idea con la gente de Electric Punishment, para nosotros muy acertada, de armar algo para que no queden en la nada los temas grabados para distintos tributos realizados para el sello estadounidense Versailles Records y que realmente nos gustó como quedaron las versiones y la frutilla del postre seria agregarle el tercer tema, la versión del "Bosque de los Misterios" en inglés, que va mostrando que vamos redoblando la apuesta y apuntamos a mas expansión.
+    
+- Desde la formación de la banda en el 2007 suponemos que habréis acumulado muchas experiencias, tanto en vuestros directos como en vuestras horas de ensayos, composición y grabación. ¿Cuáles han sido para vosotros los mejores momentos de Matvey durante estos diez años?
+    
+(Diego) Muchos desde ya, comenzando por el nacimiento del proyecto de una banda, el crecimiento constante en lo musical, la aceptación afectuosa de la gente para con Matvey desde nuestra ciudad natal Rosario como en distintos países sean o no de habla hispana, la enorme cantidad de amigos sean o no músicos que fueron estrechando lazos con la banda, obviamente la edición maravillosa de "Reinando Entre Colinas" con lo que todo eso incluye, la posibilidad de grabar para discos tributos a nivel internacional junto con músicos reconocidos y bueno algo maravilloso también es el grado de motivación que estas cosas traen para seguir adelante en este largo camino el cual estamos recorriendo a buen paso!
+    
+- ¿Cuáles son los principales objetivos que os habéis marcado conseguir en los próximos años?
+    
+(Diego) Los principales objetivos podría decir, que "Reinando Entre Colinas" siga viajando por mas lugares para así luego poder acompañar eso con shows en directo, finalizar la grabación del segundo material y seguir creciendo y mejorando sería superarnos más cada día.
+    
+- ¿Cuáles son las principales bandas de rock español que se escuchan en Argentina? ¿Alguna de ellas os ha influenciado de alguna manera?
+    
+(Diego) Aquí en argentina y damos fe de eso los Baron Rojo y Tierra Santa son los que más se han escuchado y nos dicen que tenemos algún aire a los Tierra Santa y si creo ambas aportaron desde ya!
+    
+- Como de momento no podemos veros en directo en nuestro país nos gustaría saber cómo es Matvey en sus actuaciones en directo y qué posibilidades existen de que hagáis una gira por España.
+    
+(Diego) Matvey en directo es muy pasional se toca con el corazón nos encanta hacerlo, lo disfrutamos nos divertimos muchísimo en el escenario, es un momento sublime para todos eso hace que la energía fluya y eso es lo que queremos transmitir a la gente alegría y ganas de escuchar metal!! Y en cuanto a las posibilidades de ir para allí se está trabajando en ello duramente para que en breve podamos estar sonando por allí para unirnos en un gran abrazo metalero que son los shows en directo!
+    
+- Para terminar esta entrevista nos gustaría saber cuáles son vuestros objetivos para lo que resta de este año 2017 y, también, que ha sido lo mejor que le ha sucedido a Matvey durante este año.
+    
+(Diego) Nuestros objetivos para lo que resta del año son que Matvey a través "Reinando Entre Colinas" siga llegando a mas lugares. Cumplir de manera exitosa con los compromisos de directos que tenemos de aquí a fin de año, terminar la grabación del segundo disco y seguir estrechando lazos de amistad y así preparar el terreno para en breve visitarlos y disfrutar de la música que tanto bien hace!!
+    
+- La Caja del Rock os agradece que nos hayáis concedido un poco de vuestro tiempo para realizar esta entrevista y os deseamos mucha suerte en todos vuestros proyectos presentes y futuros.
+    
+(Diego) Desde ya y hablo en nombre de todos los integrantes, los agradecidos somos nosotros y gracias por el espacio y tiempo para que pueda contar todo lo relacionado a la banda para que vuestros lectores puedan saber quiénes somos y que y como pensamos y así ya saben con lo que se van a encontrar cuando escuchen nuestras canciones! Gran abrazo metalero desde la ciudad de Rosario en Argentina.`, preview: ``, source: 'http://lacajadelrock.com/entrevistas/entrevista-a-la-banda-matvey.php', publisher: 'La Caja Del Rock' },
     { id: 'entrevDiosesMetal', title: `Entrevista a Matvey por Dioses Del Metal`, date: '2017', text: `Amigos de Dioses del Metal, desde tierras argentinas, pujando por hacerse un hueco en la escena os traemos a  Matvey, gracias por dedicarnos tiempo y palabras. Os presento, ellos son Pablo Podestá (voz), Diego de Santiago (Guitarra), Marcos (Bajo) y Mariano Gauna (Batería). La review de vuestro disco, Reinando entre colinas, la podemos leer aquí.
     
 - Bueno Diego, pues hechas las presentaciones creo que debemos comenzar. ¿Cómo se vive el Metal allende los mares?, concretamente en vuestra ciudad natal, Rosario, ¿hay locales, conciertos, bandas, la gente responde, podemos decir que está en auge….?.
