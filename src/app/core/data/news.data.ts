@@ -3,7 +3,7 @@ import { News } from '../../home/shared/news.model';
 // { title: ``, date: '', text: ``, imgName: '', imgAlt: `` },
 
 export let news: News[] = [
-    { title: `Matvey en La Colorada Music Bar`, date: '20/11/2017', text: `La banda se presentará en 'La Colorada Music Bar' (Yerbal y Rojas, Caballito, CABA) el día Domingo 26 de Noviembre a las 19:30 hs junto a Leon Bondarenko y Charger X.`, imgName: 'la-colorada-(26-11-2017)', imgAlt: `Flyer de recital en La Colorada Music Bar` },
+    { title: `Matvey en La Colorada Music Bar`, date: '20/11/2017', text: `La banda se presentará en 'La Colorada Music Bar' (Yerbal y Rojas, Caballito, CABA) el día Domingo 26 de Noviembre a las 19:30 hs junto a Leon Bondarenko y Charger X.`, imgName: 'la-colorada-(26-11-2017).jpg', imgAlt: `Flyer de recital en La Colorada Music Bar` },
     { title: `Viaja Junto A Matvey Y Maledictis A Ver A David Shankle`, date: '05/11/2017', text: `¿Sos de Rosario y no tenés como ir a Carcarañá a ver a David Shankle? ¡Viaja con nosotros! Matvey y Maledictis te ofrecen viajar en colectivo para no perderte esta noche a puro metal. El costo es de $500 (viaje ida y vuelta + entrada).
     
 Contactate por FB (www.facebook.com/MatveyHeavyMetal).`, imgName: 'viaje-rosario-carcarana.jpg', imgAlt: `Flyer con información del viaje desde Rosario a Carcarañá` },
