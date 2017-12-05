@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
 
 import { Observable } from 'rxjs/Observable';
+import { catchError } from 'rxjs/operators';
 
 import { handleError } from '../../shared/utilities';
 
@@ -11,11 +12,12 @@ import { Discography } from './discography.model';
 export class DiscographyService {
     private discographyUrl: string = 'api/discography';
 
-    constructor(private http: Http) { }
+    constructor(private http: HttpClient) { }
 
     getDiscography(): Observable<Discography[]> {
-        return this.http.get(this.discographyUrl)
-            .map(response => response.json() as Discography[])
-            .catch(handleError);
+        return this.http.get<Discography[]>(this.discographyUrl)
+            .pipe(
+                catchError(handleError('getDiscography', []))
+            );
     }
 }

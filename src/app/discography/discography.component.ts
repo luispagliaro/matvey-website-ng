@@ -28,7 +28,7 @@ export class DiscographyComponent implements OnInit {
     getDiscography(): void {
         this.discographyService.getDiscography()
             .subscribe(
-            news => this.discography = news,
+            discography => this.discography = discography,
             error => this.errorMessage = <any>error
             );
     }

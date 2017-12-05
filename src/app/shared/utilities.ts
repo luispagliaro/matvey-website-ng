@@ -1,20 +1,19 @@
-import { Headers, Http, Response, RequestOptions } from '@angular/http';
+import { Response } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
+import { of } from 'rxjs/observable/of';
 
-export function handleError(error: Response | any) {
-    let errMsg: string;
+/**
+* Handle Http operation that failed.
+* Let the app continue.
+* @param operation - name of the operation that failed
+* @param result - optional value to return as the observable result
+*/
+export function handleError<T>(operation = 'operation', result?: T) {
+    return (error: any): Observable<T> => {
+        console.error(error); // log to console instead
 
-    if (error instanceof Response) {
-        const body = error.json() || '';
-        const err = body.error || JSON.stringify(body);
-
-        errMsg = `${error.status} - ${error.statusText || ''} ${err}`;
-    } else {
-        errMsg = error.message ? error.message : error.toString();
-    }
-
-    console.error(errMsg);
-
-    return Observable.throw(errMsg);
+        // Let the app keep running by returning an empty result.
+        return of(result as T);
+    };
 }

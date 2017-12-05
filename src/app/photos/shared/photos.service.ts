@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
 
 import { Observable } from 'rxjs/Observable';
+import { catchError, map } from 'rxjs/operators';
 
 import { handleError } from '../../shared/utilities';
 
@@ -12,22 +13,25 @@ export class PhotosService {
     private photosUrl: string = 'api/photos';
     private photos: Photos[];
 
-    constructor(private http: Http) { }
+    constructor(private http: HttpClient) { }
 
     getPhotos(): Observable<Photos[]> {
-        return this.http.get(this.photosUrl)
-            .map(e => {
-                this.photos = e.json()
-                    .map((p: Photos) => {
-                        p.photosNumbers = Array.from(
-                            new Array(p.amount),
-                            (val, index) => index + 1);
+        return this.http.get<Photos[]>(this.photosUrl)
+            .pipe(
+                map(e => {
+                    this.photos = e
+                        .map((p: Photos) => {
+                            p.photosNumbers = Array.from(
+                                new Array(p.amount),
+                                (val, index) => index + 1);
 
-                        return p;
-                    });
+                            return p;
+                        });
 
-                return this.photos;
-            })
-            .catch(handleError);
+                    return this.photos;
+                }),
+                catchError(handleError('getPhotos', []))
+            );
+
     }
 }

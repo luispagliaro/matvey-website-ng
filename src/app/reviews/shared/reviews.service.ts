@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
 
 import { Observable } from 'rxjs/Observable';
+import { catchError, map } from 'rxjs/operators';
 
 import { handleError } from '../../shared/utilities';
 
@@ -11,12 +12,13 @@ import { Reviews } from './reviews.model';
 export class ReviewsService {
     private reviewsUrl: string = 'api/reviews';
 
-    constructor(private http: Http) { }
+    constructor(private http: HttpClient) { }
 
     getReviews(): Observable<Reviews[]> {
-        return this.http.get(this.reviewsUrl)
-            .map(response => response.json() as Reviews[])
-            .catch(handleError);
+        return this.http.get<Reviews[]>(this.reviewsUrl)
+            .pipe(
+                catchError(handleError('getReviews', []))
+            );
     }
 
     getReviewsPreviews(): Observable<Reviews[]> {

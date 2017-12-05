@@ -1,8 +1,9 @@
 import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 
-import { InMemoryWebApiModule } from 'angular-in-memory-web-api/in-memory-web-api.module';
+import { HttpClientInMemoryWebApiModule  } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './core/in-memory-data.service';
 
 import { AppComponent } from './app.component';
@@ -25,7 +26,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     imports: [
         BrowserModule,
         HttpModule,
-        InMemoryWebApiModule.forRoot(InMemoryDataService),
+        HttpClientModule,
+        HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService),
         AgmCoreModule.forRoot({
             apiKey: 'AIzaSyDQ2eJm2vfOiS0c4hAOayp0kH-RlfbvDBE'
         }),

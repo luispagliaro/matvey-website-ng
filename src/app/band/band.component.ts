@@ -12,7 +12,7 @@ import { BandService } from './shared/band.service';
 })
 export class BandComponent implements OnInit {
     pageTitle: string = 'Matvey - Banda';
-    band: Band;
+    band: any[] | Band;
     errorMessage: string;
 
     constructor(
