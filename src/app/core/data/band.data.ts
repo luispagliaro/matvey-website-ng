@@ -4,20 +4,26 @@ export let band: Band = {
     history: `Matvey es una banda de heavy metal tradicional, formada en Argentina, más precisamente en la ciudad de Rosario en el año 2007 entre Diego De Santiago (guitarra) y Pablo Podestá (voz), luego se unieron a la formación Lucas Caballero (bajo) Mariano Gauna (batería).
 
 Las composiciones de las letras de las canciones están basadas en temas épicos y mitológicos, principalmente ideas tomadas de la Mitología Nórdica.
-
+    
 2008 es el año que eligieron para comenzar a presentarse ante el público local y de allí en más comenzó la gira MATVEY por el interior del país, donde tocaron en numerosos festivales.
-
+    
 En el año 2009 realiza su primera grabación de estudio que da como resultado la finalización del álbum titulado "Reinara en le Batalla" álbum con 13 temas que por distintas cuestiones no fue editado, dejando solo demos para publicidad en la escena heavy metal de Argentina.
-
+    
 Durante el año 2010 la banda se dedicó no solo a la composición de nuevos temas para un nuevo álbum sino a participar de importantes festivales por el país, dejando como resultado una gran aceptación en el público que los escuchaba.
-
+    
 También han sido mencionados y publicado comentarios acerca de su puesta en escena y potencia en vivo en fanzines y webs especializadas como "Corceles de Acero" que en uno de sus comentarios hace alusión "al poder en vivo y su puesta en escena que rememoran aquellos años '80 de potente heavy metal tradicional".
-
-Para mediados del 2011 y luego de haber recorrido gran parte de Argentina, regresan al estudio para comenzar con la grabación de su nuevo material, y da como resultado luego de algunos meses de grabación el álbum pronto a editarse y publicarse titulado "Reinando entre Colinas" cuenta con 13 temas, puede apreciarse que el álbum posee una amplia variedad de matices dentro del heavy metal, pasando por todo un amplio espectro dentro del metal tradicional con temas que traen reminiscencias de bandas como: Manowar, Primal Fear, Hammerfall, Gamma Ray, Ozzy Osbourne, Yngwie Malsmteen, Iron Maiden, Judas Priest, Black Sabbath, Dio, Haldford, Savatage, nombrando solo algunas de las bandas que han influenciado notoriamente en el sonido y la composición de MATVEY.
-
+    
+Para mediados del 2011 y luego de haber recorrido gran parte de Argentina, regresan al estudio para comenzar con la grabación de su nuevo material, y da como resultado luego de algunos meses de grabación la primera versión del disco "Reinando entre Colinas" el cual contaba con 13 temas. Por razones de producción, esta primera versión no fue comercializada al público.
+    
+En el 2014 sale a la luz la versión definitiva de "Reinando entre Colinas" publicado por Electric Punishment Records, incluyendo 10 temas completamente re-grabados. Puede apreciarse que el álbum posee una amplia variedad de matices dentro del heavy metal, pasando por todo un amplio espectro dentro del metal tradicional con temas que traen reminiscencias de bandas como: Manowar, Primal Fear, Hammerfall, Gamma Ray, Ozzy Osbourne, Yngwie Malsmteen, Iron Maiden, Judas Priest, Black Sabbath, Dio, Haldford, Savatage, nombrando solo algunas de las bandas que han influenciado notoriamente en el sonido y la composición de MATVEY.
+    
 En 2015 tras la partida de su bajista Marcos Sartori ingresa como bajista Ariel Hausvirth, bajista de Speranthas, para ocupar el puesto y participar en la grabación del segundo disco de la banda.
-
-Actualmente se encuentran realizando distintas presentaciones dentro del país presentando su último trabajo.`,
+    
+Durante 2015 y 2016, Matvey participa en discos tributos editados por Versailles Records, siendo esta su primera incursión en el idioma inglés. Los temas que grabados para estas colaboraciones fueron Hero, incluído en “No More Tears: A Millennium Tribute to Ozzy Osbourne (1971-2012)” y Neon Knights incluído en “Stand Up And Shout: A Millennium Tribute To Ronnie James Dio (1975-2010)”.
+    
+En el 2017 se edita un single que incluye la primer canción del repertorio de Matvey en otro idioma, 'Forest Of Mysteries', la cual es la versión en inglés del tema 'El Bosque De Los Misterios' incluido en el disco 'Reinando Entre Colinas'. Además, el single incluye los dos covers grabados para los discos tributos editados por Versailles Records. 
+    
+Actualmente la banda se encuentra realizando distintas presentaciones dentro del país presentando su último trabajo.`,
     members: [
         {
             role: 'Voz', name: 'Pablo Podestá', bio: `Pablo Podestá nació el 10 de Abril de 1983 en la ciudad de Rosario, Santa Fe, Argentina. Es el cantante y compositor de Matvey.

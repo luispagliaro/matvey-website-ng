@@ -12,18 +12,18 @@ import { BandService } from './shared/band.service';
 })
 export class BandComponent implements OnInit {
     pageTitle: string = 'Matvey - Banda';
-    band: any[] | Band;
+    band: any;
     errorMessage: string;
 
     constructor(
         private bandService: BandService,
         private titleService: Title
     ) {
-        this.titleService.setTitle(this.pageTitle);
         this.band = new Band();
     }
 
     ngOnInit() {
+        this.titleService.setTitle(this.pageTitle);
         this.getBand();
     }
 

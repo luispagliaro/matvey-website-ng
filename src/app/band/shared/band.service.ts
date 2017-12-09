@@ -14,8 +14,8 @@ export class BandService {
 
     constructor(private http: HttpClient) { }
 
-    getBand(): Observable<any[] | Band> {
-        return this.http.get<Band>(this.bandUrl)
+    getBand(): Observable<Band[]> {
+        return this.http.get<Band[]>(this.bandUrl)
         .pipe(
             catchError(handleError('getBand', []))
         );
