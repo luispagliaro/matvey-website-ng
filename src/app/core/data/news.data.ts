@@ -3,6 +3,12 @@ import { News } from '../../home/shared/news.model';
 // { title: ``, date: '', text: ``, imgName: '', imgAlt: `` },
 
 export let news: News[] = [
+    { title: `Metal Maniac I`, date: '07/04/2018', text: `Matvey se presentará el día Sábado 5 de Mayo en Floyd Rock Pub (Dorrego 1362) a las 23:30 hs, junto a:
+
+Metaluria, Cruel y Yunque.
+
+Organiza: Yoa Lucifera, PyA Producciones
+Auspicia: Malas Mañas Diseño De Indumentaria`, imgName: 'floyd-(05-05-2018).jpg', imgAlt: `Flyer del recital en Floyd (05/05/2018)` },
     { title: `Matvey en Rockan Bar`, date: '08/12/2017', text: `Matvey se presentará junto a León Bondarenko el día viernes 15 de Diciembre a las 21 hs en Rockan Bar (Buenos Aires 1092, Rosario, Santa Fe).
     
 Contactate por mensaje privado en FB por entradas anticipadas.`, imgName: 'rockan-bar-(15-12-2017).jpg', imgAlt: `Flyer de recital en Rockan Bar` },
