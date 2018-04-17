@@ -3,6 +3,7 @@ import { News } from '../../home/shared/news.model';
 // { title: ``, date: '', text: ``, imgName: '', imgAlt: `` },
 
 export let news: News[] = [
+    { title: `La Campana Del Infierno - Metal Open Camp`, date: '13-14/10/2018', text: `Matvey participará del evento 'La Campana Del Infierno - Metal Open Camp' (La Campana Del Infierno METAL OPEN CAMP) que se realizará los días Sábado 13 y Domingo 14 de Octubre en Parque Sarmiento, Carcarañá. El evento contará con la presentación de 24 bandas en vivo, una convención de tatuajes del Diablo Producciones, clínicas, ferias y acampe.`, imgName: 'parque-sarmiento-(13-14-10-2018).jpg', imgAlt: `Flyer del recital en Parque Sarmiento, Carcarañá (13-14-10-2018)` },
     { title: `Metal Maniac I`, date: '07/04/2018', text: `Matvey se presentará el día Sábado 5 de Mayo en Floyd Rock Pub (Dorrego 1362) a las 23:30 hs, junto a:
 
 Metaluria, Cruel y Yunque.
