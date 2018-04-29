@@ -3,6 +3,8 @@ import { News } from '../../home/shared/news.model';
 // { title: ``, date: '', text: ``, imgName: '', imgAlt: `` },
 
 export let news: News[] = [
+    { title: `Matvey Junto A Renacer`, date: '29/04/2018', text: `Matvey se presentará en Animal Rock (Mendoza 2754, Rosario, Santa Fe) el día Sábado 28 de Julio a las 22 hs. junto a Renacer (quienes estarán presentando su disco 'Del Silencio A La Tempestad'), Keepers y Silverheart.`, imgName: 'animal-rock-(28-07-2018).jpg', imgAlt: `Flyer del recital en Animal Rock (28-07-2018)` },
+    { title: `Cofradía Metálica`, date: '29/04/2018', text: `Matvey se presentará en Gier Music Club (Av. Alvarez Thomas 1078) el día Jueves 24 de Mayo a las 21 hs junto a León Bondarenko y Spinas.`, imgName: 'gier-(24-05-2018).jpg', imgAlt: `Flyer del recital en Gier Music Club (24-05-2018)` },
     { title: `La Campana Del Infierno - Metal Open Camp`, date: '13-14/10/2018', text: `Matvey participará del evento 'La Campana Del Infierno - Metal Open Camp' (La Campana Del Infierno METAL OPEN CAMP) que se realizará los días Sábado 13 y Domingo 14 de Octubre en Parque Sarmiento, Carcarañá. El evento contará con la presentación de 24 bandas en vivo, una convención de tatuajes del Diablo Producciones, clínicas, ferias y acampe.`, imgName: 'parque-sarmiento-(13-14-10-2018).jpg', imgAlt: `Flyer del recital en Parque Sarmiento, Carcarañá (13-14-10-2018)` },
     { title: `Metal Maniac I`, date: '07/04/2018', text: `Matvey se presentará el día Sábado 5 de Mayo en Floyd Rock Pub (Dorrego 1362) a las 23:30 hs, junto a:
 
