@@ -60,14 +60,18 @@ Mariano participó en varios proyectos como "Nightfall" y "Eclipse" junto con Pa
 
 En el 2007, se junta con Pablo Podestá y Diego De Santiago para formar Matvey.
 
-Hoy, forma parte de Matvey junto con Diego De Santiago, Ariel Hausvirth y Pablo Podestá.`, imgName: 'mariano-gauna.png'
+Hoy, forma parte de Matvey junto con Diego De Santiago, Marcos Sartori y Pablo Podestá.`, imgName: 'mariano-gauna.png'
         },
         {
-            role: 'Bajo', name: 'Ariel Hausvirth', bio: `Ariel Hausvirth nació el 22 de septiembre de 1981 en la ciudad de Buenos Aires, Capital Federal, Argentina.
-            
-Sus influencias vienen de todos los estilos de música, no sólo limitandosé al rock y metal. Dentro del metal, sus bandas preferidas son Iron Maiden y Judas Priest.
+            role: 'Bajo', name: 'Marcos Sartori', bio: `Marcos Sebastián Sartori nació el 16 de Diciembre 1982 en la ciudad de Venado Tuerto, provincia de Santa Fe, Argentina. 
 
-Ariel fue bajista en "Speranthas" antes de sumarse a Matvey en el año 2016.`, imgName: 'ariel-hausvirth.png'
+Su interés por la música y tocar el bajo comenzó a los 14 años de edad. 
+            
+Su estilo favorito es el Heavy Metal, depositando toda su energía en "el metal pesado tradicional de los años 80", bajo la influencia de bandas como Iron Maiden, Judas Priest y Manowar y bajistas como Steve Harris, Marcus Miller, Victor Wooten, Jaco Pastorius, Javier Malosetti y Vadala Javier. 
+            
+Ha participado como bajista en varios proyectos tales como "Egida", "Gebas" y "Pretoriana", además de varios espectáculos acompañando a bandas de renombre dentro de la escena metalera local. 
+            
+Hoy en día forma parte de los proyectos de Matvey, junto con Diego De Santiago, Mariano Gauna, y Pablo Podestá.`, imgName: 'marcos-sartori.png'
         }
     ]
 };

@@ -3,6 +3,7 @@ import { News } from '../../home/shared/news.model';
 // { title: ``, date: '', text: ``, imgName: '', imgAlt: `` },
 
 export let news: News[] = [
+    { title: `Nuevo EP`, date: '09/12/2018', text: `Durante el mes de Marzo estaremos presentando nuestro nuevo EP (MCD) que incluye 5 canciones nuevas dentro de las cuales se encuentra "Wild Street". La producción de esta canción estuvo a cargo de Thundersteel Magazine, e invitamos a 3 cantantes de la escena metalera de los '80 para cantarla. ¡Pronto anunciaremos quiénes son y de qué trata la canción! ¡Gracias por el apoyo!`, imgName: 'wild-street-announcement.jpg', imgAlt: `Anuncio de nuevo single 'Wild Street'` },
     { title: `Asesinos De Mentes`, date: '27/05/2018', text: `Matvey se presentará en Animal Rock (Mendoza 2754) el día Domingo 8 de Julio a las 21 hs junto a Pacto De Sangre, Shivers, P.E.O.R. y V.I.D.A.
 
 Los recitales se transmitirán en vivo por radio Vorterix y habrá sorteos.`, imgName: 'animal-rock-(08-07-2018).jpg', imgAlt: `Flyer del recital en Animal Rock (08-07-2018)` },
