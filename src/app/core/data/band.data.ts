@@ -1,29 +1,23 @@
 import { Band } from '../../band/shared/band.model';
 
 export let band: Band = {
-    history: `Matvey es una banda de heavy metal tradicional, formada en Argentina, más precisamente en la ciudad de Rosario en el año 2007 entre Diego De Santiago (guitarra) y Pablo Podestá (voz), luego se unieron a la formación Lucas Caballero (bajo) Mariano Gauna (batería).
+    history: `Matvey es una banda de heavy metal tradicional formada en Rosario, Argentina, en el año 2007. Actualmente, la banda está formada por Diego De Santiago (Guitarra), Pablo Podestá (Voz), Marcos Sartori (Bajo), y Mariano Gauna (Batería).
 
-Las composiciones de las letras de las canciones están basadas en temas épicos y mitológicos, principalmente ideas tomadas de la Mitología Nórdica.
+Las letras de las canciones de Matvey están basadas en temas épicos tomados de la mitología, principalmente de la nórdica.
     
-2008 es el año que eligieron para comenzar a presentarse ante el público local y de allí en más comenzó la gira MATVEY por el interior del país, donde tocaron en numerosos festivales.
+En 2008, la banda comienza a presentarse en Rosario y ciudades vecinas, participando de festivales de heavy metal.
     
-En el año 2009 realiza su primera grabación de estudio que da como resultado la finalización del álbum titulado "Reinara en le Batalla" álbum con 13 temas que por distintas cuestiones no fue editado, dejando solo demos para publicidad en la escena heavy metal de Argentina.
+En 2009, la banda graba su primer álbum, titulado “Reinará En La Batalla”, el cual contiene 13 canciones. Por diversas razones el álbum no pudo ser editado por lo que se convirtió en un demo para entregar a las audiencias.
     
-Durante el año 2010 la banda se dedicó no solo a la composición de nuevos temas para un nuevo álbum sino a participar de importantes festivales por el país, dejando como resultado una gran aceptación en el público que los escuchaba.
+Durante el año 2010, la banda no sólo empezó a componer nuevas canciones para un nuevo álbum, sino que participa de importantes festivales donde son aclamados por la audiencia y logrando así ganar reconocimiento en la escena metalera local.
     
-También han sido mencionados y publicado comentarios acerca de su puesta en escena y potencia en vivo en fanzines y webs especializadas como "Corceles de Acero" que en uno de sus comentarios hace alusión "al poder en vivo y su puesta en escena que rememoran aquellos años '80 de potente heavy metal tradicional".
+A mediados del año 2011, luego de una gira por gran parte de la Argentina, Matvey regresa al estudio para comenzar a grabar un álbum. El resultado fue un álbum de 13 temas titulado “Reinando Entre Colinas”. Sin embargo, por diversas razones, esta versión del disco no fue comercializada.
     
-Para mediados del 2011 y luego de haber recorrido gran parte de Argentina, regresan al estudio para comenzar con la grabación de su nuevo material, y da como resultado luego de algunos meses de grabación la primera versión del disco "Reinando entre Colinas" el cual contaba con 13 temas. Por razones de producción, esta primera versión no fue comercializada al público.
+En el año 2014, la banda presenta oficialmente su disco “Reinando Entre Colinas”, publicado por Electric Punishment Records. El disco contiene 10 canciones, algunas de las cuales estuvieron incluidas en la primera versión, pero fueron arregladas y grabadas de nuevo. El álbum posee una amplia gama dentro del heavy metal tradicional pero nunca perdiendo la originalidad y esencia de la banda. El disco recibe muy buenas reseñas y comentarios por parte de páginas, blogs y fanzines de metal de todas partes del mundo.
     
-En el 2014 sale a la luz la versión definitiva de "Reinando entre Colinas" publicado por Electric Punishment Records, incluyendo 10 temas completamente re-grabados. Puede apreciarse que el álbum posee una amplia variedad de matices dentro del heavy metal, pasando por todo un amplio espectro dentro del metal tradicional con temas que traen reminiscencias de bandas como: Manowar, Primal Fear, Hammerfall, Gamma Ray, Ozzy Osbourne, Yngwie Malsmteen, Iron Maiden, Judas Priest, Black Sabbath, Dio, Haldford, Savatage, nombrando solo algunas de las bandas que han influenciado notoriamente en el sonido y la composición de MATVEY.
+El próximo paso de Matvey es incursionar en el idioma inglés, primero grabando ‘Forest Of Mysteries’, versión en inglés de ‘El Bosque De Los Misterios’ en 205; y segundo, realizando una colaboración con la canción ‘Hero’ en el disco 'No More Tears: A Millennium Tribute to Ozzy Osbourne- 1971-2012' (2015) y “Neon Knights” de Black Sabbath en el disco “Stand Up And Shout: A Millennium Tribute To Ronnie James Dio (1975-2010)” (2016), publicadoa por Versailles Records. Estas 3 canciones son luego lanzadas en 2017 en un ‘single’ titulado “Forest Of Mysteries”.
     
-En 2015 tras la partida de su bajista Marcos Sartori ingresa como bajista Ariel Hausvirth, bajista de Speranthas, para ocupar el puesto y participar en la grabación del segundo disco de la banda.
-    
-Durante 2015 y 2016, Matvey participa en discos tributos editados por Versailles Records, siendo esta su primera incursión en el idioma inglés. Los temas que grabados para estas colaboraciones fueron Hero, incluído en “No More Tears: A Millennium Tribute to Ozzy Osbourne (1971-2012)” y Neon Knights incluído en “Stand Up And Shout: A Millennium Tribute To Ronnie James Dio (1975-2010)”.
-    
-En el 2017 se edita un single que incluye la primer canción del repertorio de Matvey en otro idioma, 'Forest Of Mysteries', la cual es la versión en inglés del tema 'El Bosque De Los Misterios' incluido en el disco 'Reinando Entre Colinas'. Además, el single incluye los dos covers grabados para los discos tributos editados por Versailles Records. 
-    
-Actualmente la banda se encuentra realizando distintas presentaciones dentro del país presentando su último trabajo.`,
+En 2018, luego de mostrar el nuevo material de la banda a varios productores, la banda une fuerzas con el productor Lucas Thunder (Thundersteel Mag!). Bajo la producción de Thundersteel, la banda se encuentra actualmente trabajando en un nuevo EP que será lanzado en 2019. Este album incluirá el nuevo ‘single’ “Evil Forces”, el cual tiene un sonido más influenciado por heavy y power metal de EU.`,
     members: [
         {
             role: 'Voz', name: 'Pablo Podestá', bio: `Pablo Podestá nació el 10 de Abril de 1983 en la ciudad de Rosario, Santa Fe, Argentina. Es el cantante y compositor de Matvey.
